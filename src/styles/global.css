@@ -1,0 +1,66 @@
+:root {
+    --night: #151515;
+    --dusk: #202022;
+    --dawn: #949495;
+    --sunrise: #f5f5fa;
+    --zenith: #ffffff;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  a {
+      text-decoration: underline;
+      color: var(--text-main);
+  }
+  a:visited {
+      color: var(--text-main);
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+body {
+    --bg: var(--sunrise);
+    --bg-secondary: var(--zenith);
+    --text-main: var(--night);
+    --text-secondary: var(--dusk);
+
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+
+    height: 100vh;
+    font-family: sans-serif;
+    color: var(--text-main);
+    background-color: var(--bg);
+}
+
+
+body.dark {
+    -webkit-font-smoothing: antialiased;
+    --bg: var(--night);
+    --bg-secondary: var(--dusk);
+    --text-main: var(--zenith);
+    --text-secondary: var(--dawn);
+
+ 
+
+}

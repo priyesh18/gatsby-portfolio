@@ -4,9 +4,11 @@
 .section-title {
     position: sticky;
     font-size: small;
+    background-color: var(--bg);
     top: 0;
     z-index: 40;
     padding-top: 24px;
+    padding-bottom: 24px;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 3px;

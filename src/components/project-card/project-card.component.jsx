@@ -2,10 +2,12 @@ import React from 'react';
 import './project-card.styles.scss';
 
 import StarIcon from '../../assets/icons/star.svg';
+import ExternalLinkIcon from '../../assets/icons/external-link.svg';
+import SocialLinks from '../social-links/social-links.component';
 
 const ProjectCard = ({language, name, description, count}) => (
     <div className="project-card">
-        <a className="card" href="http://" target="_blank" rel="noopener noreferrer">
+       
             <p className="project-language">
                 javascript
             </p>
@@ -15,15 +17,10 @@ const ProjectCard = ({language, name, description, count}) => (
             <p className="project-description">
                 lajlejfeln fawejf l jkekl nkla e ljawekln a ekn lknlawef klnweklnf klaeklew .
             </p>
-            <div className="card-footer">
-                <div className="icon">
-                    <StarIcon/>
-                </div>
-                <span className="star-count">
-                    12
-                </span>
-            </div>
-        </a>
+            <footer className="card-footer">
+               <SocialLinks/> 
+                
+            </footer>
     </div>
 );
 

@@ -5,6 +5,9 @@ import ProjectCard from '../components/project-card/project-card.component';
 const AllProjects = () => (
     <div className="all-projects">
         <ProjectCard/>
+        <ProjectCard/>
+        <ProjectCard/>
+        <ProjectCard/>
     </div>
 );
 

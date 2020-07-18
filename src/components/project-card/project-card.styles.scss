@@ -1,8 +1,12 @@
 .project-card {
     background-color: var(--bg-secondary);
-    a.card {
+    width: 100%;
+    margin: 4px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
         padding: 40px;
-        display: block;
         text-decoration: none;
         .project-language {
             font-size: x-small;
@@ -23,21 +27,24 @@
             display: flex;
             align-items: center;
             margin-top: 16px;
+            // font-size: small;
             color: var(--text-secondary);
-            .icon {
-                width: 16px;
-                height: 16px;
-                padding: 2px;
-                margin-right: 4px;
-                fill: var(--text-secondary);
+            
+        
+    }
+}
 
-            }
-            .star-count {
-                margin-top: 2px;
-                font-size: x-small;
-                letter-spacing: 3px;
+@media (min-width: 992px) {
+    .project-card {
+        width: 280px;
+        min-height: 280px;
+        margin: 4px;
+    }
+}
 
-            }
-        }
+@media (min-width: 1280px) {
+    .project-card {
+        width: 300px;
+        min-height: 300px;
     }
 }

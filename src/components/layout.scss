@@ -11,14 +11,15 @@
     position: static;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: justify-between;
     padding: 32px;
+    width: 100%;
     .intro-text {
       display: flex;
       flex-direction: column;
       .intro-title {
         line-height: 1.25;
-        font-size: 3.5em;
+        font-size: 3.4em;
         font-weight: 700;
       }
       .intro-desc {
@@ -57,11 +58,11 @@
   .layout {
     flex-direction: row;
     .intro-box {
-      max-width: 408px;
+      max-width: 378px;
       position: fixed;
     }
     .content-box {
-      max-width: 536px;
+      max-width: 612px;
       position: absolute;
       right: 0;
       padding-left: 0;
@@ -72,8 +73,8 @@
   .layout {
     flex-direction: row;
     .intro-box {
-      max-width: 498px;
-      position: fixed;
+      max-width: 496px;
+      padding: 88px 88px 0 88px;
     }
     .content-box {
       max-width: 736px;

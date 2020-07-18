@@ -1,9 +1,11 @@
 .social-links {
+    width: 100%;
     ul {
         display: flex;
         // color: var(--text-main);
+        width: 100%;
         li {
-            margin: 0 16px;
+            margin-right: 16px;
             a {
                 display: flex;
                 align-items: center;
@@ -12,15 +14,14 @@
                     fill: var(--text-main);
                     width: 16px;
                     height: 16px;
-                    margin:0 8px;
+                    margin-right: 8px;
                 }
                 .title {
 
                     margin-top: 1px;
+                    margin-right: 8px;
                 }
-                .icon-link {
-                    fill: var(--text-main);
-                }
+                
             }
 
         }

@@ -25,7 +25,7 @@ html {
     list-style: none;
   }
   a {
-      text-decoration: underline;
+      text-decoration: none;
       color: var(--text-main);
   }
   a:visited {
@@ -41,7 +41,7 @@ body {
     --bg: var(--sunrise);
     --bg-secondary: var(--zenith);
     --text-main: var(--night);
-    --text-secondary: var(--dusk);
+    --text-secondary: var(--dawn);
 
     margin: 0;
     padding: 0;

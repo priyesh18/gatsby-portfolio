@@ -10,9 +10,10 @@ import PropTypes from "prop-types"
 
 import TopBar from '../partials/top-bar.component';
 import Nav from '../components/nav/nav.component';
-
+import SocialLinks from '../components/social-links/social-links.component'
+import headshot from '../assets/images/gatsby-icon.png';
 // import Header from "./header"
-import "./layout.css"
+import "./layout.scss"
 
 const Layout = ({ children }) => {
   
@@ -41,8 +42,15 @@ const Layout = ({ children }) => {
             </div>
             <Nav />
           </div>
+          <div className="intro-misc">
+            <img className="headshot" src={headshot} alt="Priyesh Patel"/>
+            <SocialLinks/>
+          </div>
         </div>
+        <div className="details-box">
       {children}
+
+        </div>
     </div>
        
       </div>

@@ -1,0 +1,28 @@
+.social-links {
+    ul {
+        display: flex;
+        // color: var(--text-main);
+        li {
+            margin: 0 16px;
+            a {
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+                .icon {
+                    fill: var(--text-main);
+                    width: 16px;
+                    height: 16px;
+                    margin:0 8px;
+                }
+                .title {
+
+                    margin-top: 1px;
+                }
+                .icon-link {
+                    fill: var(--text-main);
+                }
+            }
+
+        }
+    }
+}

@@ -1,15 +1,16 @@
 import React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+// import Image from "../components/image"
 import SEO from "../components/seo"
 
 import Projects from '../components/projects.component';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Priyesh Patel" />
+    
     <Projects/>
     {/* <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>

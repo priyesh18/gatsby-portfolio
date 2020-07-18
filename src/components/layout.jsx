@@ -11,7 +11,7 @@ import PropTypes from "prop-types"
 import TopBar from '../partials/top-bar.component';
 import Nav from '../components/nav/nav.component';
 import SocialLinks from '../components/social-links/social-links.component'
-import headshot from '../assets/images/gatsby-icon.png';
+import headshot from '../assets/images/male_avatar.png';
 // import Header from "./header"
 import "./layout.scss"
 

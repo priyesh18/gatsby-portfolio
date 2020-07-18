@@ -47,7 +47,7 @@ const Layout = ({ children }) => {
             <SocialLinks/>
           </div>
         </div>
-        <div className="details-box">
+        <div className="content-box">
       {children}
 
         </div>

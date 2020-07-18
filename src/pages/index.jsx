@@ -3,15 +3,29 @@ import React from "react"
 
 import Layout from "../components/layout"
 // import Image from "../components/image"
-import SEO from "../components/seo"
+import SEO from "../components/seo";
+import './index.scss';
 
-import Projects from '../components/projects.component';
+import AllProjects from '../partials/allProjects.component';
+import AllBlogs from '../partials/allBlogs.component';
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Priyesh Patel" />
-    
-    <Projects/>
+    <div id="projects" className="projects-container">
+      <h2 className="section-title">
+        Projects
+      </h2>
+
+    <AllProjects/>
+    </div>
+    <div id="blogs" className="blogs-container">
+      <h2 className="section-title">
+        Blogs
+      </h2>
+
+    <AllBlogs/>
+    </div>
     {/* <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>

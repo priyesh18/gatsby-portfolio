@@ -1,0 +1,43 @@
+.project-card {
+    background-color: var(--bg-secondary);
+    a.card {
+        padding: 40px;
+        display: block;
+        text-decoration: none;
+        .project-language {
+            font-size: x-small;
+            font-weight: bold;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+        .project-name {
+            margin-top: 8px;
+            font-size: x-large;
+        }
+        .project-description {
+            margin-top: 8px;
+            color: var(--text-secondary);
+
+        }
+        .card-footer {
+            display: flex;
+            align-items: center;
+            margin-top: 16px;
+            color: var(--text-secondary);
+            .icon {
+                width: 16px;
+                height: 16px;
+                padding: 2px;
+                margin-right: 4px;
+                fill: var(--text-secondary);
+
+            }
+            .star-count {
+                margin-top: 2px;
+                font-size: x-small;
+                letter-spacing: 3px;
+
+            }
+        }
+    }
+}

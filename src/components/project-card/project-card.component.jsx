@@ -2,8 +2,9 @@ import React from 'react';
 import './project-card.styles.scss';
 
 import StarIcon from '../../assets/icons/star.svg';
-import ExternalLinkIcon from '../../assets/icons/external-link.svg';
-import SocialLinks from '../social-links/social-links.component';
+import GithubIcon from '../../assets/icons/github.svg'
+import PlayIcon from '../../assets/icons/quill.svg'
+import CustomLink from '../../components/custom-link/custom-link.component';
 
 const ProjectCard = ({language, name, description, count}) => (
     <div className="project-card">
@@ -18,7 +19,17 @@ const ProjectCard = ({language, name, description, count}) => (
                 lajlejfeln fawejf l jkekl nkla e ljawekln a ekn lknlawef klnweklnf klaeklew .
             </p>
             <footer className="card-footer">
-               <SocialLinks/> 
+            <ul>
+            <li>
+                
+        <CustomLink icon={<GithubIcon/>} text="Github" href="#"/>
+            </li>
+
+            <li>
+            <CustomLink icon={<PlayIcon/>} text="View" href="#"/>
+
+            </li>
+        </ul> 
                 
             </footer>
     </div>

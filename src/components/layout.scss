@@ -42,6 +42,17 @@
         border-radius: 10000px;
         margin-right: 32px;
       }
+      .social-links {
+        width: 100%;
+        ul {
+            display: flex;
+            // color: var(--text-main);
+            width: 100%;
+            li {
+                margin-right: 16px;
+            }
+        }
+    }
     }
   }
   .content-box {

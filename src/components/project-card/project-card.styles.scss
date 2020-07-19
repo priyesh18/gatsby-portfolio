@@ -27,8 +27,15 @@
             display: flex;
             align-items: center;
             margin-top: 16px;
-            // font-size: small;
             color: var(--text-secondary);
+            width: 100%;
+        ul {
+            display: flex;
+            width: 100%;
+            li {
+                margin-right: 16px;
+            }
+        }
             
         
     }

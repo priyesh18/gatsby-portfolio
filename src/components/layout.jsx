@@ -10,7 +10,10 @@ import PropTypes from "prop-types"
 
 import TopBar from '../partials/top-bar.component';
 import Nav from '../components/nav/nav.component';
-import SocialLinks from '../components/social-links/social-links.component'
+// import SocialLinks from '../components/social-links/social-links.component';
+import GithubIcon from '../assets/icons/github.svg'
+import TwitterIcon from '../assets/icons/twitter.svg'
+import CustomLink from '../components/custom-link/custom-link.component';
 import headshot from '../assets/images/male_avatar.png';
 // import Header from "./header"
 import "./layout.scss"
@@ -44,7 +47,16 @@ const Layout = ({ children }) => {
           </div>
           <div className="intro-misc">
             <img className="headshot" src={headshot} alt="Priyesh Patel"/>
-            <SocialLinks/>
+            <div className="social-links">
+              <ul>
+                <li>
+                    <CustomLink icon={<GithubIcon/>} text="Github" href="#"/>
+                </li>
+                <li>
+                  <CustomLink icon={<TwitterIcon/>} text="Twitter" href="#"/>
+                </li>
+          </ul>
+            </div>
           </div>
         </div>
         <div className="content-box">

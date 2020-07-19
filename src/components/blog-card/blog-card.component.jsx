@@ -1,7 +1,9 @@
 import React from 'react';
 
 import './blog-card.styles.scss';
-import SocialLinks from '../social-links/social-links.component';
+import PlayIcon from '../../assets/icons/quill.svg'
+import CustomLink from '../../components/custom-link/custom-link.component';
+
 
 const BlogCard = () => (
     <div className="blog-card">
@@ -13,7 +15,7 @@ const BlogCard = () => (
                 lajlejfeln fawejf l jkekl nkla e ljawekln a ekn lknlawef klnweklnf klaeklew .
             </p>
             <footer className="card-footer">
-               <SocialLinks/> 
+            <CustomLink icon={<PlayIcon/>} text="Read More" href="#"/>
                 
             </footer>
     </div>

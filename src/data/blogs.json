@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "What exactly is Node.js?",
+        "text": "Node.js is a JavaScript runtime environment. Sounds great, but what does that mean? How does that work? The Node run-time environment includes everything you need to execute a program written in JavaScript...",
+        "link": "https://medium.com/free-code-camp/what-exactly-is-node-js-ae36e97449f5"
+    },
+    {
+        "id": 2,
+        "title": "How Does JavaScript Really Work? (Part 1)",
+        "text": "What is V8 and what happens under the hood when JavaScript runs?…",
+        "link": "https://blog.bitsrc.io/how-does-javascript-really-work-part-1-7681dd54a36d"
+    },
+    {
+        "id": 3,
+        "title": "How Does JavaScript Really Work? (Part 2)",
+        "text": "How memory management, call stack, threading, and the event loop works with JavaScript’s V8 engine...",
+        "link": "https://blog.bitsrc.io/how-does-javascript-work-part-2-40cc15360bc"
+    },
+    {
+        "id": 4,
+        "title": "Web Components without a framework: Let’s build a Modal!",
+        "text": "How to make a modal component from scratch using vanilla JavaScript. In this post, I will give you a quick overview of what are web components and why are they useful. I will also guide you through the process of making a modal web component from scratch without any framework to better understand its working...",
+        "link": "https://blog.bitsrc.io/web-components-without-a-framework-lets-build-a-modal-a450a4536340"
+    },
+    {
+        "id": 5,
+        "title": "",
+        "text": "",
+        "link": ""
+    },
+    {
+        "id": 6,
+        "title": "",
+        "text": "",
+        "link": ""
+    },
+    {
+        "id": 7,
+        "title": "",
+        "text": "",
+        "link": ""
+    },
+    {
+        "id": 8,
+        "title": "",
+        "text": "",
+        "link": ""
+    }
+]

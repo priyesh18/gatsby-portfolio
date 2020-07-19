@@ -6,29 +6,29 @@ import GithubIcon from '../../assets/icons/github.svg'
 import PlayIcon from '../../assets/icons/quill.svg'
 import CustomLink from '../../components/custom-link/custom-link.component';
 
-const ProjectCard = ({language, name, description, count}) => (
+const ProjectCard = ({language, name, description, html_url}) => (
     <div className="project-card">
        
             <p className="project-language">
-                javascript
+                {language}
             </p>
             <h3 className="project-name">
-                Dinero.js
+                {name}
             </h3>
             <p className="project-description">
-                lajlejfeln fawejf l jkekl nkla e ljawekln a ekn lknlawef klnweklnf klaeklew .
+                {description}
             </p>
             <footer className="card-footer">
             <ul>
             <li>
                 
-        <CustomLink icon={<GithubIcon/>} text="Github" href="#"/>
+        <CustomLink icon={<GithubIcon/>} text="Github" href={html_url}/>
             </li>
 
-            <li>
+            {/* <li>
             <CustomLink icon={<PlayIcon/>} text="View" href="#"/>
 
-            </li>
+            </li> */}
         </ul> 
                 
             </footer>

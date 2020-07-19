@@ -5,17 +5,17 @@ import PlayIcon from '../../assets/icons/quill.svg'
 import CustomLink from '../../components/custom-link/custom-link.component';
 
 
-const BlogCard = () => (
+const BlogCard = ({title, text, link}) => (
     <div className="blog-card">
         
             <h3 className="blog-name">
-                Dinero.js
+                {title}
             </h3>
             <p className="blog-description">
-                lajlejfeln fawejf l jkekl nkla e ljawekln a ekn lknlawef klnweklnf klaeklew .
+                {text}
             </p>
             <footer className="card-footer">
-            <CustomLink icon={<PlayIcon/>} text="Read More" href="#"/>
+            <CustomLink icon={<PlayIcon/>} text="Read More" href={ link }/>
                 
             </footer>
     </div>

@@ -25,26 +25,20 @@
     },
     {
         "id": 5,
-        "title": "",
-        "text": "",
-        "link": ""
+        "title": "Creating a Reusable Accordion Component That Works Anywhere",
+        "text": "Web Components is the hottest trend in web development and it’s only going to gain momentum since most of the major browsers now support them. Web components are custom made tags which extend HTML’s capabilities...",
+        "link": "https://blog.bitsrc.io/creating-a-reusable-accordion-component-that-works-anywhere-2f2add05baa4"
     },
     {
         "id": 6,
-        "title": "",
-        "text": "",
-        "link": ""
+        "title": "Build a Unit-Testing Suite with Mocha and Mongoose",
+        "text": "Over a period of time, your application will have more lines of code for testing than the actual application logic. So I feel it’s a good investment to learn to write tests and follow a Test Driven Development or TDD approach...",
+        "link": "https://blog.bitsrc.io/build-a-unit-testing-suite-with-mocha-and-mongoose-eba06c3b3625"
     },
     {
         "id": 7,
-        "title": "",
-        "text": "",
-        "link": ""
-    },
-    {
-        "id": 8,
-        "title": "",
-        "text": "",
-        "link": ""
+        "title": "Understanding a RESTful API using Node.js, TypeScript and Pokemon",
+        "text": "In this post, we will learn to make a simple REST API with a .json file as database. Most of the tutorials out there teach you to build a TODO app using Node.js, Express.js with JavaScript. To learn something new, we will use TypeScript and make a pokemon API to read data from json file...",
+        "link": "https://blog.bitsrc.io/understanding-a-restful-api-using-node-js-and-typescript-6f9cede6b579"
     }
 ]

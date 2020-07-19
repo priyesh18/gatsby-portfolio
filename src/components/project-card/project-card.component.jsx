@@ -1,9 +1,7 @@
 import React from 'react';
 import './project-card.styles.scss';
 
-import StarIcon from '../../assets/icons/star.svg';
 import GithubIcon from '../../assets/icons/github.svg'
-import PlayIcon from '../../assets/icons/quill.svg'
 import CustomLink from '../../components/custom-link/custom-link.component';
 
 const ProjectCard = ({language, name, description, html_url}) => (

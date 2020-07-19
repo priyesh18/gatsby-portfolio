@@ -8,7 +8,7 @@ const AllBlogs = () => (
     <div className="all-blogs">
         {
             BlogData.map(({ id, ...otherProps }) => (
-                <BlogCard id={id} {...otherProps }/>
+                <BlogCard key={id} {...otherProps }/>
 
             ))
         }

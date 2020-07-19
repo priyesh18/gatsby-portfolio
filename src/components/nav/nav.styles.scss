@@ -6,16 +6,15 @@
         display: flex;
         flex-direction: column;
         margin: 16px 0;
+        
         .link-item {
             margin: 16px 0;
+            color: var(--text-secondary);
             a {
+                color: inherit;
                 display: inline-flex;
                 text-decoration: none;
                 align-items: center;
-                color: var(--text-secondary);
-                &:hover {
-                    color: var(--text-main);
-                }
                 .number {
                     // letter-spacing: 1px;
 
@@ -26,11 +25,25 @@
                     height: 1px;
                     margin: 0 16px;
                     background-color: var(--text-secondary);
+                    transition: 1s;
                 }
                 .text {
 
                 }
+                // &:visited {
+                //     color: var(--text-secondary);
+                // }
+                &:hover {
+                    color: var(--text-main);
+                }
+                &.is-current {
+                    color: var(--text-main);
+                     .line-spacer {
+                        width: 48px;
+                    }
+                }
             }
         }
+        
     }
 }

@@ -9,7 +9,8 @@ const Nav = () => (
             <ScrollspyNav  
                 scrollTargetIds={["projects", "blogs"]} 
                 activeNavClass="is-current"
-                scrollDuration="1000"
+                scrollDuration="800"
+                
             >
                 <ul className="links">
                     <li className="link-item">

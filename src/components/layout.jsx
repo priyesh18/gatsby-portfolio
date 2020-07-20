@@ -43,8 +43,8 @@ const Layout = ({ children }) => {
                 </a> 
               </p>
             </div>
-            <Nav />
           </div>
+            <Nav />
           <div className="intro-misc">
             <img className="headshot" src={headshot} alt={PersonalData.name}/>
             <div className="social-links">

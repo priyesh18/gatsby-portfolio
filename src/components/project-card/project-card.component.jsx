@@ -1,36 +1,27 @@
-import React from 'react';
-import './project-card.styles.scss';
+import React from "react"
+import "./project-card.styles.scss"
 
-import GithubIcon from '../../assets/icons/github.svg'
-import CustomLink from '../../components/custom-link/custom-link.component';
+import GithubIcon from "../../assets/icons/github.svg"
+import CustomLink from "../../components/custom-link/custom-link.component"
 
-const ProjectCard = ({language, name, description, html_url}) => (
-    <div className="project-card">
-       
-            <p className="project-language">
-                {language}
-            </p>
-            <h3 className="project-name">
-                {name}
-            </h3>
-            <p className="project-description">
-                {description}
-            </p>
-            <footer className="card-footer">
-            <ul>
-            <li>
-                
-        <CustomLink icon={<GithubIcon/>} text="Github" href={html_url}/>
-            </li>
+const ProjectCard = ({ language, name, description, html_url }) => (
+  <div className="project-card">
+    <p className="project-language">{language}</p>
+    <h3 className="project-name">{name}</h3>
+    <p className="project-description">{description}</p>
+    <footer className="card-footer">
+      <ul>
+        <li>
+          <CustomLink icon={<GithubIcon />} text="Github" href={html_url} />
+        </li>
 
-            {/* <li>
+        {/* <li>
             <CustomLink icon={<PlayIcon/>} text="View" href="#"/>
 
             </li> */}
-        </ul> 
-                
-            </footer>
-    </div>
-);
+      </ul>
+    </footer>
+  </div>
+)
 
-export default ProjectCard;
+export default ProjectCard

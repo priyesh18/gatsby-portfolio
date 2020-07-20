@@ -1,9 +1,9 @@
 {
-    "name": "Priyesh Patel",
-    "title": "Hello, I'm Priyesh Patel.",
-    "intro": "I'm a Computer Science graduate student at University of Buffalo. I like doing full-stack development and currently learning React.js. I also share what I learn on my blog at ",
-    "blog_name": "Medium.com",
-    "blog_url": "",
-    "twitter_url": "",
-    "github_url": ""
+  "name": "Priyesh Patel",
+  "title": "Hello, I'm Priyesh Patel.",
+  "intro": "I'm a Computer Science graduate student at University of Buffalo. I like doing full-stack development and currently learning React.js. I also share what I learn on my blog at ",
+  "blog_name": "Medium.com",
+  "blog_url": "",
+  "twitter_url": "",
+  "github_url": ""
 }

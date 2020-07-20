@@ -1,19 +1,15 @@
-import React from 'react';
-import './allProjects.styles.css';
-import ProjectCard from '../components/project-card/project-card.component';
+import React from "react"
+import "./allProjects.styles.css"
+import ProjectCard from "../components/project-card/project-card.component"
 
-import ProjectData from '../data/projects.json';
+import ProjectData from "../data/projects.json"
 
 const AllProjects = () => (
-    <div className="all-projects">
-        {
-            ProjectData.map(({id, ...otherProps}) => (
-                <ProjectCard key={id} {...otherProps} />
+  <div className="all-projects">
+    {ProjectData.map(({ id, ...otherProps }) => (
+      <ProjectCard key={id} {...otherProps} />
+    ))}
+  </div>
+)
 
-            ))
-        }
-        
-    </div>
-);
-
-export default AllProjects;
+export default AllProjects

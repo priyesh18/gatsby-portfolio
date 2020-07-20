@@ -24,7 +24,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/male-avatar.png`, // This path is relative to the root of the site.
+        icon: `src/assets/images/male-avatar.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-dark-mode`,
@@ -33,10 +33,10 @@ module.exports = {
       resolve: "gatsby-plugin-react-svg",
       options: {
         rule: {
-          include: /assets\/icons/
-        }
-      }
-    }
+          include: /assets\/icons/,
+        },
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

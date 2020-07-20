@@ -9,10 +9,12 @@ import React from "react"
 import PropTypes from "prop-types"
 
 import Nav from "../components/nav/nav.component"
+import CustomLink from "../components/custom-link/custom-link.component"
+import ThemeToggle from "../components/theme-toggle/theme-toggle.component"
+
 import GithubIcon from "../assets/icons/github.svg"
 import TwitterIcon from "../assets/icons/twitter.svg"
-import CustomLink from "../components/custom-link/custom-link.component"
-import headshot from "../assets/images/male_avatar.png"
+// import headshot from "../assets/images/male_avatar.png"
 import PersonalData from "../data/personal.json"
 import "./layout.scss"
 
@@ -44,7 +46,9 @@ const Layout = ({ children }) => {
           </div>
           <Nav />
           <div className="intro-misc">
-            <img className="headshot" src={headshot} alt={PersonalData.name} />
+            <div className="headshot"><ThemeToggle/></div>
+            
+            {/* <img className="headshot" src={headshot} alt={PersonalData.name} /> */}
             <div className="social-links">
               <ul>
                 <li>

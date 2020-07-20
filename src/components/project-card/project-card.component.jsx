@@ -4,24 +4,70 @@ import "./project-card.styles.scss"
 import GithubIcon from "../../assets/icons/github.svg"
 import CustomLink from "../../components/custom-link/custom-link.component"
 
-const ProjectCard = ({ language, name, description, html_url }) => (
-  <div className="project-card">
-    <p className="project-language">{language}</p>
-    <h3 className="project-name">{name}</h3>
-    <p className="project-description">{description}</p>
-    <footer className="card-footer">
-      <ul>
-        <li>
-          <CustomLink icon={<GithubIcon />} text="Github" href={html_url} />
-        </li>
+class ProjectCard extends React.Component {
+  constructor(props){
+    super(props);
 
-        {/* <li>
-            <CustomLink icon={<PlayIcon/>} text="View" href="#"/>
+    this.state = {
+      scrollPosition: 0,
+      shouldParallax: false,
+      ticking: false
+    }
 
-            </li> */}
-      </ul>
-    </footer>
-  </div>
-)
+  }
+  componentDidMount() {
+    window.addEventListener("scroll", this.onScroll);
+    window.addEventListener("resize", this.onResize);
+    this.onResize();
+  }
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.onResize)
+    window.removeEventListener("scroll", this.onScroll);
+  }
+  onResize = () => {
+    this.setState({shouldParallax: window.innerWidth > 992 ? true: false})
+  }
+  onScroll = () => {
+    if (!this.ticking) {
+      window.requestAnimationFrame(() => {
+        // I am mutating!
+        this.setState({scrollPosition: parseInt(window.scrollY)})
+        this.ticking = false;
+      });
+
+      this.ticking = true;
+    }
+  }
+  render() {
+    const {id, language, name, description, html_url } = this.props;
+    return (
+      <div 
+        className="project-card" 
+        style={ 
+          id % 2 !== 0 && this.state.shouldParallax ? 
+          {transform:`translateY(-${this.state.scrollPosition*0.15}px)`} :
+          {}
+        }>
+        <p className="project-language">{language}</p>
+        <h3 className="project-name">{name}</h3>
+        <p className="project-description">{description}</p>
+        <footer className="card-footer">
+          <ul>
+            <li>
+              <CustomLink icon={<GithubIcon />} text="Github" href={html_url} />
+            </li>
+    
+            {/* <li>
+                <CustomLink icon={<PlayIcon/>} text="View" href="#"/>
+    
+                </li> */}
+          </ul>
+        </footer>
+      </div>
+    )
+  }
+
+}
+
 
 export default ProjectCard

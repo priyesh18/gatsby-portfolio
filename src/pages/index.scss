@@ -14,3 +14,10 @@
   text-transform: uppercase;
   letter-spacing: 3px;
 }
+.designer {
+    font-size: x-small;
+    color: var(--text-secondary);
+    a {
+        color: var(--text-main);
+    }
+}

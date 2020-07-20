@@ -10,6 +10,7 @@
     .link-item {
       margin: 16px 0;
       color: var(--text-secondary);
+      cursor: pointer;
       a {
         color: inherit;
         display: inline-flex;
@@ -32,7 +33,7 @@
         &:hover {
           color: var(--text-main);
         }
-        &.is-current {
+        &.active {
           color: var(--text-main);
           .line-spacer {
             width: 48px;

@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/gatsby-portfolio", // remove this is deploying to root github repo
   siteMetadata: {
     title: `Software Engineer`,
     description: `Priyesh Patel | Software Engineer | MERN stack developer | React, CSS, Node.js, Java.`,

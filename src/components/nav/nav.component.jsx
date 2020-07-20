@@ -1,32 +1,34 @@
 import React from "react"
 
 import "./nav.styles.scss"
-import ScrollspyNav from "react-scrollspy-nav"
+import { Link } from "react-scroll";
+
 
 const Nav = () => (
   <nav className="navbar">
-    <ScrollspyNav
-      scrollTargetIds={["projects", "blogs"]}
-      activeNavClass="is-current"
-      scrollDuration="800"
-    >
+    
       <ul className="links">
+
+   
+      
         <li className="link-item">
-          <a href="#projects">
+        <Link activeClass="active" to="projects" spy={true} smooth={true} duration={500} >
             <span className="number">01</span>
             <span className="line-spacer"></span>
             <span className="text">Projects</span>
-          </a>
+
+        </Link>
+  
+   
         </li>
         <li className="link-item">
-          <a href="#blogs">
+        <Link activeClass="active" to="blogs" spy={true} smooth={true} duration={500} >
             <span className="number">02</span>
             <span className="line-spacer"></span>
             <span className="text">Blogs</span>
-          </a>
+        </Link>
         </li>
-      </ul>
-    </ScrollspyNav>
+        </ul>
   </nav>
 )
 

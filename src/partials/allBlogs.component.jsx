@@ -1,5 +1,5 @@
 import React from "react"
-import "./allBlogs.styles.css"
+import "./allBlogs.styles.scss"
 
 import BlogCard from "../components/blog-card/blog-card.component"
 import BlogData from "../data/blogs.json"

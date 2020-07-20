@@ -18,13 +18,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
+        name: `Personal Portfolio`,
         short_name: `Portfolio`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/assets/images/male-avatar.png`, // This path is relative to the root of the site.
+        icon: `src/assets/images/male_avatar.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-dark-mode`,

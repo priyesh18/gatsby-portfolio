@@ -1,19 +1,18 @@
 .toggle-button {
-    display:block;
-    input[type="checkbox"] {
-        display: none;
-    }
+  display: block;
+  input[type="checkbox"] {
+    display: none;
+  }
+  cursor: pointer;
+  height: 48px;
+  width: 48px;
+  fill: var(--text-main);
+  border: 1px solid;
+  padding: 12px;
+  border-radius: 10000px;
+  box-shadow: 0 0 10px 0.5px var(--text-secondary);
+  background-color: var(--bg-secondary);
+  .icon {
     cursor: pointer;
-    height: 48px;
-    width: 48px;
-    fill: var(--text-main);
-    border: 1px solid;
-    padding: 12px;
-    border-radius: 10000px;
-    box-shadow: 0 0 10px 0.5px var(--text-secondary);
-    background-color: var(--bg-secondary);
-    .icon {
-        
-        cursor: pointer;
-    }
+  }
 }

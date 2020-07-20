@@ -1,47 +1,44 @@
 .navbar {
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    .links {
-        display: flex;
-        flex-direction: column;
-        margin: 16px 0;
-        
-        .link-item {
-            margin: 16px 0;
-            color: var(--text-secondary);
-            a {
-                color: inherit;
-                display: inline-flex;
-                text-decoration: none;
-                align-items: center;
-                .number {
-                    // letter-spacing: 1px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  .links {
+    display: flex;
+    flex-direction: column;
+    margin: 16px 0;
 
-                }
-                .line-spacer {
-                    display: inline-block;
-                    width: 24px;
-                    height: 1px;
-                    margin: 0 16px;
-                    background-color: var(--text-secondary);
-                    transition: 1s;
-                }
-                .text {
-
-                }
-                
-                &:hover {
-                    color: var(--text-main);
-                }
-                &.is-current {
-                    color: var(--text-main);
-                     .line-spacer {
-                        width: 48px;
-                    }
-                }
-            }
+    .link-item {
+      margin: 16px 0;
+      color: var(--text-secondary);
+      a {
+        color: inherit;
+        display: inline-flex;
+        text-decoration: none;
+        align-items: center;
+        .number {
+          // letter-spacing: 1px;
         }
-        
+        .line-spacer {
+          display: inline-block;
+          width: 24px;
+          height: 1px;
+          margin: 0 16px;
+          background-color: var(--text-secondary);
+          transition: 1s;
+        }
+        .text {
+        }
+
+        &:hover {
+          color: var(--text-main);
+        }
+        &.is-current {
+          color: var(--text-main);
+          .line-spacer {
+            width: 48px;
+          }
+        }
+      }
     }
+  }
 }

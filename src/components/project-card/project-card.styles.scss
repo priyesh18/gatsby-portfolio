@@ -1,57 +1,54 @@
 .project-card {
-    background-color: var(--bg-secondary);
-    width: 100%;
-    margin: 4px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  
-        padding: 40px;
-        text-decoration: none;
-        .project-language {
-            font-size: x-small;
-            font-weight: bold;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-        }
-        .project-name {
-            margin-top: 8px;
-            font-size: x-large;
-        }
-        .project-description {
-            margin-top: 8px;
-            color: var(--text-secondary);
+  background-color: var(--bg-secondary);
+  width: 100%;
+  margin: 4px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
-        }
-        .card-footer {
-            display: flex;
-            align-items: center;
-            margin-top: 16px;
-            color: var(--text-secondary);
-            width: 100%;
-        ul {
-            display: flex;
-            width: 100%;
-            li {
-                margin-right: 16px;
-            }
-        }
-            
-        
+  padding: 40px;
+  text-decoration: none;
+  .project-language {
+    font-size: x-small;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+  .project-name {
+    margin-top: 8px;
+    font-size: x-large;
+  }
+  .project-description {
+    margin-top: 8px;
+    color: var(--text-secondary);
+  }
+  .card-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    color: var(--text-secondary);
+    width: 100%;
+    ul {
+      display: flex;
+      width: 100%;
+      li {
+        margin-right: 16px;
+      }
     }
+  }
 }
 
 @media (min-width: 992px) {
-    .project-card {
-        width: 280px;
-        min-height: 280px;
-        margin: 4px;
-    }
+  .project-card {
+    width: 280px;
+    min-height: 280px;
+    margin: 4px;
+  }
 }
 
 @media (min-width: 1280px) {
-    .project-card {
-        width: 316px;
-        min-height: 300px;
-    }
+  .project-card {
+    width: 316px;
+    min-height: 300px;
+  }
 }

@@ -46,8 +46,10 @@ const Layout = ({ children }) => {
           </div>
           <Nav />
           <div className="intro-misc">
-            <div className="headshot"><ThemeToggle/></div>
-            
+            <div className="headshot">
+              <ThemeToggle />
+            </div>
+
             {/* <img className="headshot" src={headshot} alt={PersonalData.name} /> */}
             <div className="social-links">
               <ul>

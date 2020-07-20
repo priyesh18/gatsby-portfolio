@@ -33,29 +33,27 @@
           a {
             text-decoration: underline;
           }
-        
         }
       }
     }
     .intro-misc {
-      display:flex;
+      display: flex;
       align-items: center;
       margin-top: 0;
       width: 100%;
       .headshot {
-   
         margin-right: 32px;
       }
       .social-links {
         width: 100%;
         ul {
-            display: flex;
-            width: 100%;
-            li {
-                margin-right: 16px;
-            }
+          display: flex;
+          width: 100%;
+          li {
+            margin-right: 16px;
+          }
         }
-    }
+      }
     }
   }
   .content-box {
@@ -63,10 +61,6 @@
     padding: 32px;
   }
 }
-
-
-
-
 
 @media (min-width: 992px) {
   .layout {

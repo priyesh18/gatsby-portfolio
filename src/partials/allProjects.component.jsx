@@ -6,25 +6,34 @@ import ProjectData from "../data/projects.json"
 import { graphql, useStaticQuery } from "gatsby"
 
 const AllProjects = () => {
-  // const gatsbyRepoData = useStaticQuery(graphql`
-  //   query {
-  //     github {
+  const gatsbyRepoData = useStaticQuery(graphql`
+    query {
+      allProject {
+        nodes {
+          id
+          name
+          description
+          html_url
+          language
+          homepage
+        }
         
-  //         id
-  //         nameWithOwner
-  //         url
-        
-  //     }
-  //   }
-  // `)
+      }
+    }
+  `)
+  const selectedProjects = gatsbyRepoData.allProject.nodes
+    .filter(
+        (project) => ProjectData.project_names
+          .find(name => name===project.name)
+          )
 
   return (
     
     <div className="all-projects">
-    {/* {console.log(gatsbyRepoData)} */}
-    {ProjectData.map((project) => (
+    {selectedProjects.map((project, index) => (
           <ProjectCard 
             key={project.id} 
+            index={ index }
             {...project}
             
           />

@@ -10,7 +10,7 @@ const ThemeToggle = () => (
   <div>
     <ThemeToggler>
       {({ theme, toggleTheme }) => (
-        <label className="toggle-button">
+        <label htmlFor="toggle" className="toggle-button">
           <input
             type="checkbox"
             onChange={e => toggleTheme(e.target.checked ? "dark" : "light")}

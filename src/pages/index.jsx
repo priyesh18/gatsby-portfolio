@@ -22,7 +22,14 @@ const IndexPage = () => (
     </div>
     <p className="designer">
       Designed by&nbsp;
-      <a href="https://dribbble.com/NicolasMzrd" target="_blank" rel="noopener noreferrer">Nicolas Meuzard</a>.
+      <a
+        href="https://dribbble.com/NicolasMzrd"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Nicolas Meuzard
+      </a>
+      .
     </p>
   </Layout>
 )

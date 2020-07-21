@@ -17,28 +17,19 @@ const AllProjects = () => {
           language
           homepage
         }
-        
       }
     }
   `)
-  const selectedProjects = gatsbyRepoData.allProject.nodes
-    .filter(
-        (project) => ProjectData.project_names
-          .find(name => name===project.name)
-          )
+  const selectedProjects = gatsbyRepoData.allProject.nodes.filter(project =>
+    ProjectData.project_names.find(name => name === project.name)
+  )
 
   return (
-    
     <div className="all-projects">
-    {selectedProjects.map((project, index) => (
-          <ProjectCard 
-            key={project.id} 
-            index={ index }
-            {...project}
-            
-          />
-        ))}
-  </div>
+      {selectedProjects.map((project, index) => (
+        <ProjectCard key={project.id} index={index} {...project} />
+      ))}
+    </div>
   )
 }
 

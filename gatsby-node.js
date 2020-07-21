@@ -1,15 +1,14 @@
-
 const fetch = require(`node-fetch`)
-const {github_repos_url} = require(`./src/data/personal.json`)
+const { github_repos_url } = require(`./src/data/personal.json`)
 const NODE_TYPE = `project`
 exports.sourceNodes = async ({
-  actions: {createNode},
+  actions: { createNode },
   createContentDigest,
   createNodeId,
 }) => {
   // get data from GitHub API at build time
   const result = await fetch(github_repos_url)
-  const data = await result.json();
+  const data = await result.json()
   data.forEach(post =>
     createNode({
       ...post,

@@ -3,8 +3,8 @@
   "title": "Hello, I'm Priyesh Patel.",
   "intro": "I'm a Computer Science graduate student at University of Buffalo. I like doing full-stack development and currently learning React.js. I also share what I learn on my blog at ",
   "blog_name": "Medium.com",
-  "blog_url": "",
-  "twitter_url": "",
+  "blog_url": "https://medium.com/@priyeshp18",
+  "twitter_url": "https://twitter.com/Priyesh_p18",
   "github_url": "https://github.com/priyesh18",
   "github_repos_url": "https://api.github.com/users/priyesh18/repos?type=all&sort=created"
 }

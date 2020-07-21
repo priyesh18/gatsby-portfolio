@@ -1,4 +1,3 @@
-
 # Portfolio template/starter made using [Gatsby](https://www.gatsbyjs.org/).
 
 ## Features
@@ -30,7 +29,7 @@
 
     Your site is now running at `http://localhost:8000`!
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. 
+    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`\_.
 
     Open the `my-portfolio-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
@@ -40,10 +39,10 @@
 
     .
     └── src  
-        └── data
-            ├── personal.json
-            ├── blogs.json
-            └── projects.json
+     └── data
+    ├── personal.json
+    ├── blogs.json
+    └── projects.json
 
 ## 💫 Deploy
 

@@ -14,7 +14,7 @@ const ThemeToggle = () => (
           <input
             type="checkbox"
             onChange={e => toggleTheme(e.target.checked ? "dark" : "light")}
-            checked={theme === "dark"}
+            defaultChecked={theme === "dark"}
           />
           {theme === "dark" ? (
             <SunIcon className="icon" />

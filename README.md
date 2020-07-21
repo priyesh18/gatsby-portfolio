@@ -40,18 +40,10 @@
     ```
     .
     └── src  
-<<<<<<< HEAD
      └── data
     ├── personal.json
     ├── blogs.json
     └── projects.json
-=======
-        └── data
-            ├── personal.json
-            ├── blogs.json
-            └── projects.json
-    ```
->>>>>>> 17483fbbd2e74813e49e8142f7c862bdc2088178
 
 ## 💫 Deploy
 

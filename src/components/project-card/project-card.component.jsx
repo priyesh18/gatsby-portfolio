@@ -39,15 +39,16 @@ class ProjectCard extends React.Component {
     }
   }
   render() {
-    const {id, language, name, description, html_url } = this.props;
+    const {index, language, name, description, html_url, homepage } = this.props;
     return (
       <div 
         className="project-card" 
         style={ 
-          id % 2 !== 0 && this.state.shouldParallax ? 
-          {transform:`translateY(-${this.state.scrollPosition*0.15}px)`} :
+          index % 2 === 0 && this.state.shouldParallax ? 
+          {transform:`translateY(-${this.state.scrollPosition*0.05}px)`} :
           {}
-        }>
+        }
+        >
         <p className="project-language">{language}</p>
         <h3 className="project-name">{name}</h3>
         <p className="project-description">{description}</p>

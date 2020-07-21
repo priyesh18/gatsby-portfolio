@@ -37,13 +37,15 @@
 1.  **Edit the data to personalize the site**
 
     Edit data inside the json files.
-
+    
+    ```
     .
     └── src  
         └── data
             ├── personal.json
             ├── blogs.json
             └── projects.json
+    ```
 
 ## 💫 Deploy
 

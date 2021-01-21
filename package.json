@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Priyesh Patel",
   "dependencies": {
-    "gatsby": "2.31.0",
+    "gatsby": "2.31.1",
     "gatsby-image": "2.10.0",
     "gatsby-plugin-dark-mode": "1.1.2",
     "gatsby-plugin-manifest": "2.11.0",

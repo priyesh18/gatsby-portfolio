@@ -1,12 +1,12 @@
 {
   "project_names": [
     "react-eCommerce",
-    "distributed-hash-table",
-    "mpi-sieves-prime",
-    "typescript-node-api",
+    "book-store",
     "organic-shop",
+    "lifeline",
+    "cyber-bullying-prevention",
+    "typescript-node-api",
     "dynamo-keyValue-store",
-    "angular-elements-accordion",
-    "book-store"
+    "grid-javascript-portfolio", 
   ]
 }

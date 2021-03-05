@@ -6,7 +6,6 @@
     "lifeline",
     "cyber-bullying-prevention",
     "typescript-node-api",
-    "dynamo-keyValue-store",
-    "grid-javascript-portfolio"
+    "dynamo-keyValue-store"
   ]
 }

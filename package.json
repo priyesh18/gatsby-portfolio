@@ -21,7 +21,7 @@
     "react": "16.14.0",
     "react-dom": "16.14.0",
     "react-helmet": "6.1.0",
-    "react-scroll": "1.8.1"
+    "react-scroll": "1.8.2"
   },
   "devDependencies": {
     "prettier": "2.2.1"

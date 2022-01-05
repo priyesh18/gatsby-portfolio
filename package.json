@@ -17,7 +17,7 @@
     "gatsby-source-filesystem": "2.11.1",
     "gatsby-transformer-sharp": "2.12.1",
     "node-sass": "4.14.1",
-    "prop-types": "15.8.0",
+    "prop-types": "15.8.1",
     "react": "16.14.0",
     "react-dom": "16.14.0",
     "react-helmet": "6.1.0",

@@ -24,7 +24,7 @@
     "react-scroll": "1.8.6"
   },
   "devDependencies": {
-    "prettier": "2.6.1"
+    "prettier": "2.6.2"
   },
   "keywords": [
     "gatsby",
